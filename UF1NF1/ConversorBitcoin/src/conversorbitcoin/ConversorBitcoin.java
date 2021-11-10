@@ -19,6 +19,7 @@ public class ConversorBitcoin {
         double monedas, dineroEuros;
         int opcion;
         Scanner teclado = new Scanner(System.in);
+        System.out.println("caca ");
         System.out.println("Cuántas monedas tienes? ");
         monedas = teclado.nextDouble();
         System.out.println("|Elige si quieres convertir Bitcoins o XMR:");
